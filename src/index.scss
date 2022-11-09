@@ -1,0 +1,201 @@
+@import './assets/stylesheet/variables.scss';
+
+:root {
+	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	background-color: $primary-main;
+}
+
+#root {
+	height: 100%;
+}
+
+.flex {
+	display: flex;
+}
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+.justify-center {
+	justify-content: center;
+}
+.justify-between {
+	justify-content: space-between;
+}
+.justify-around {
+	justify-content: space-around;
+}
+.items-center {
+	align-items: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bg-primary {
+	background-color: $primary-main;
+}
+.bg-primary-light {
+	background-color: $primary-light;
+}
+.bg-secondary {
+	background-color: $secondary-main;
+}
+.bg-secondary-light {
+	background-color: $secondary-light;
+}
+.bg-grey {
+	background-color: $grey-main;
+}
+.bg-grey-light {
+	background-color: $grey-light;
+}
+.bg-green {
+	background-color: $green-main;
+}
+.bg-green-light {
+	background-color: $green-light;
+}
+.bg-violet {
+	background-color: $violet-main;
+}
+.bg-violet-light {
+	background-color: $violet-light;
+}
+
+.primary {
+	color: $primary-main;
+}
+.primary-light {
+	color: $primary-light;
+}
+.secondary {
+	color: $secondary-main;
+}
+.secondary-light {
+	color: $secondary-light;
+}
+.grey {
+	color: $grey-main;
+}
+.grey-light {
+	color: $grey-light;
+}
+.green {
+	color: $green-main;
+}
+.green-light {
+	color: $green-light;
+}
+.violet {
+	color: $violet-main;
+}
+.violet-light {
+	color: $violet-light;
+}
+
+.h-100 {
+	height: 100%;
+}
+.h-80 {
+	height: 80%;
+}
+.h-60 {
+	height: 60%;
+}
+.h-40 {
+	height: 40%;
+}
+.h-20 {
+	height: 20%;
+}
+.w-100 {
+	width: 100%;
+}
+.w-80 {
+	width: 80%;
+}
+.w-60 {
+	width: 60%;
+}
+.w-40 {
+	width: 40%;
+}
+.w-20 {
+	width: 20%;
+}
+
+.min-w-180 {
+	min-width: 180px;
+}
+.max-w-250 {
+	max-width: 250px;
+}
+
+.m-80 {
+	margin: 80%;
+}
+.m-70 {
+	margin: 70%;
+}
+.m-60 {
+	margin: 60%;
+}
+.m-50 {
+	margin: 50%;
+}
+.m-40 {
+	margin: 40%;
+}
+.m-30 {
+	margin: 30%;
+}
+.m-20 {
+	margin: 20%;
+}
+.m-10 {
+	margin: 10%;
+}
+.m-5 {
+	margin: 5%;
+}
+.m-0 {
+	margin: 0;
+}
+.mb-10 {
+	margin-bottom: 10%;
+}
+.mb-5 {
+	margin-bottom: 5%;
+}
+
+.p-10 {
+	padding: 10%;
+}
+.p-8 {
+	padding: 8%;
+}
+.p-6 {
+	padding: 6%;
+}
+.p-4 {
+	padding: 4%;
+}
+.p-2 {
+	padding: 2%;
+}
+.p-0 {
+	padding: 0;
+}
+
+.f-w-300 {
+	font-weight: 300;
+}

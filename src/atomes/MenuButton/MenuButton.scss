@@ -1,0 +1,10 @@
+@import '../../assets/stylesheet/variables.scss';
+
+.menu-button {
+	color: $grey-light;
+	cursor: pointer;
+}
+
+.menu-button:hover {
+	color: $grey-main;
+}

@@ -1,0 +1,24 @@
+@import '../../assets/stylesheet/variables.scss';
+
+.main {
+	height: 100%;
+	margin: 15px;
+}
+
+.content {
+	margin-top: 25px;
+}
+
+.content-top {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.content-main {
+	margin-top: 25px;
+}
+
+.content-bottom {
+	margin-top: 25px;
+}

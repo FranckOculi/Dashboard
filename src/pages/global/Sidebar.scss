@@ -1,0 +1,11 @@
+@import '../../assets/stylesheet/variables.scss';
+
+.sidebar {
+	background-color: $primary-light;
+	margin: 15px;
+	padding: 10px;
+	height: 100%;
+	width: 20%;
+	min-width: 180px;
+	max-width: 250px;
+}
