@@ -6,7 +6,8 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"test": "vitest"
 	},
 	"dependencies": {
 		"@emotion/react": "^11.10.5",
@@ -15,10 +16,12 @@
 		"@mui/material": "^5.10.13",
 		"@mui/x-data-grid": "^5.17.10",
 		"apexcharts": "^3.36.3",
+		"dotenv": "^16.0.3",
 		"react": "^18.2.0",
 		"react-apexcharts": "^1.4.0",
 		"react-dom": "^18.2.0",
 		"react-pro-sidebar": "^1.0.0-alpha.7",
+		"react-query": "^3.39.3",
 		"react-router": "^6.4.3",
 		"react-router-dom": "^6.4.3",
 		"react-svg-donut-chart": "^1.1.0",
@@ -26,12 +29,18 @@
 		"tailwind": "^4.0.0"
 	},
 	"devDependencies": {
+		"@testing-library/dom": "^9.0.1",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^14.0.0",
+		"@types/node": "^18.15.3",
 		"@types/react": "^18.0.24",
 		"@types/react-dom": "^18.0.8",
 		"@vitejs/plugin-react": "^2.2.0",
 		"node-sass": "^8.0.0",
+		"react-test-renderer": "^18.2.0",
 		"sass": "^1.56.1",
-		"typescript": "^4.6.4",
-		"vite": "^3.2.3"
+		"typescript": "^4.9.5",
+		"vite": "^3.2.3",
+		"vitest": "^0.29.2"
 	}
 }
