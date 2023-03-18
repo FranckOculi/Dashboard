@@ -1,14 +1,9 @@
-import React from 'react'
-import { Box } from '@mui/material'
+import React, { FC } from 'react'
 
 import TopBar from './TopBar'
 import Sidebar from './Sidebar'
 
-type Props = {
-	children: JSX.Element | null
-}
-
-const Layout = ({ children }: Props) => {
+const Layout: FC<React.PropsWithChildren<unknown>> = ({ children }) => {
 	return (
 		<div
 			className='app'
