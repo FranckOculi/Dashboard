@@ -5,16 +5,16 @@ import Spinner from '@/atomes/Spinner/Spinner'
 import NotFound from '@/pages/NotFound'
 import { AuthenticatedLayout } from '@/providers/Layouts'
 
-const Home = lazy(() => import('@/pages/Home'))
-const Profile = lazy(() => import('@/pages/Profile'))
+const Contacts = lazy(() => import('@/pages/contacts'))
+const Dashboard = lazy(() => import('@/pages/dashboard'))
 
 const AuthenticatedRoutes: FC<React.PropsWithChildren<unknown>> = () => {
 	return (
 		<AuthenticatedLayout>
 			<Suspense fallback={<Spinner />}>
 				<Routes>
-					<Route index element={<Home />} />
-					<Route path='profil' element={<Profile />} />
+					<Route index element={<Dashboard />} />
+					<Route path='contacts' element={<Contacts />} />
 					<Route path='*' element={<NotFound />} />
 				</Routes>
 			</Suspense>
