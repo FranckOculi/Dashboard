@@ -5,7 +5,7 @@ import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone'
 import SettingsIcon from '@mui/icons-material/Settings'
 import SearchIcon from '@mui/icons-material/Search'
 import PersonIcon from '@mui/icons-material/Person'
-import Searchbar from '../../molecules/Searchbar'
+import Searchbar from '../Searchbar'
 
 const TopBar = (): JSX.Element => {
 	return (
