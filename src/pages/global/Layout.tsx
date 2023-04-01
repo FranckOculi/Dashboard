@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 
-import TopBar from './TopBar'
-import Sidebar from './Sidebar'
+import TopBar from '@/molecules/Topbar'
+import Sidebar from '@/organisms/Sidebar'
 
 const Layout: FC<React.PropsWithChildren<unknown>> = ({ children }) => {
 	return (
