@@ -1,10 +1,9 @@
 import React, { FC } from 'react'
 import { QueryClient, QueryClientProvider } from 'react-query'
+
 import { AuthProvider } from './auth/AuthContext'
 
-export const Providers: FC<React.PropsWithChildren<unknown>> = ({
-	children,
-}) => {
+const Providers: FC<React.PropsWithChildren<unknown>> = ({ children }) => {
 	const queryClient = new QueryClient()
 
 	return (
@@ -13,3 +12,5 @@ export const Providers: FC<React.PropsWithChildren<unknown>> = ({
 		</QueryClientProvider>
 	)
 }
+
+export default Providers
