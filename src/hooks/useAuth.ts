@@ -35,7 +35,8 @@ const useAuth = () => {
 						navigate('/', { replace: true })
 					}
 				},
-				onError: (err) => {},
+				onError: (err) => {
+console.log(err)},
 			}
 		)
 	}
