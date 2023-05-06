@@ -6,7 +6,7 @@ enum ACCESS {
 
 type Team = {
 	id: number
-	name: string
+	displayName: string
 	email: string
 	age: number
 	phone: string
@@ -16,7 +16,7 @@ type Team = {
 export const mockDataTeam: Team[] = [
 	{
 		id: 1,
-		name: 'John Doe',
+		displayName: 'John Doe',
 		email: 'johndoe@gmail.com',
 		age: 35,
 		phone: '0685967452',
@@ -24,7 +24,7 @@ export const mockDataTeam: Team[] = [
 	},
 	{
 		id: 2,
-		name: 'Jane Doe',
+		displayName: 'Jane Doe',
 		email: 'janedoe@gmail.com',
 		age: 28,
 		phone: '0685967458',
@@ -32,7 +32,7 @@ export const mockDataTeam: Team[] = [
 	},
 	{
 		id: 3,
-		name: 'Cersei Lanister',
+		displayName: 'Cersei Lanister',
 		email: 'cerseilanister@gmail.com',
 		age: 33,
 		phone: '0685967414',
@@ -40,7 +40,7 @@ export const mockDataTeam: Team[] = [
 	},
 	{
 		id: 4,
-		name: 'John Snow',
+		displayName: 'John Snow',
 		email: 'johnsnow@gmail.com',
 		age: 41,
 		phone: '0685967414',
@@ -48,7 +48,7 @@ export const mockDataTeam: Team[] = [
 	},
 	{
 		id: 5,
-		name: 'Little Finger',
+		displayName: 'Little Finger',
 		email: 'littlefinger@gmail.com',
 		age: 42,
 		phone: '0654784512',
@@ -56,7 +56,7 @@ export const mockDataTeam: Team[] = [
 	},
 	{
 		id: 6,
-		name: 'Eddard Stark',
+		displayName: 'Eddard Stark',
 		email: 'eddardstark@gmail.com',
 		age: 42,
 		phone: '0632659845',
@@ -64,7 +64,7 @@ export const mockDataTeam: Team[] = [
 	},
 	{
 		id: 7,
-		name: 'Little Finger',
+		displayName: 'Little Finger',
 		email: 'littlefinger@gmail.com',
 		age: 42,
 		phone: '0652639685',
