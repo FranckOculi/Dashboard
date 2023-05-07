@@ -1,6 +1,8 @@
 import { FC } from 'react'
 
-const NotFound: FC = () => {
+type Props = {}
+
+const NotFound: FC = ({}: Props) => {
 	return <div>NotFound</div>
 }
 
